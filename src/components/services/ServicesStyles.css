@@ -1,0 +1,51 @@
+.Services {
+    width: 100%;
+    height: 100vh;  background: url('../../images/bg2.jpg') no-repeat center center/cover;
+}
+
+.Services .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Services .top {
+    margin-top: 7rem;
+    color: #f6f6f6;
+}
+.Services .middle {
+    color : rgb(37, 37, 36);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+
+}
+.Services .middle-1 {
+    color : rgb(37, 37, 36);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: left;
+}
+.Services .bottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 4rem;
+}
+
+      
+
+@media screen and (max-width:540px) {
+    .Services .container .bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+}
